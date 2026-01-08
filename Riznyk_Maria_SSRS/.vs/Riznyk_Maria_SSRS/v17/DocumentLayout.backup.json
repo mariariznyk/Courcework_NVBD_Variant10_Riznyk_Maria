@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\\u041E\u0441\u043E\u0431\u0438\u0441\u0442\u0430 \u043F\u0430\u043F\u043A\u0430\\4 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041D\u0430\u0434\u0432\u0435\u043B\u0438\u043A\u0456 \u0431\u0430\u0437\u0438 \u0434\u0430\u043D\u0438\u0445\\Courcework NVBD - Variant 10 - Riznyk Maria\\Riznyk_Maria_SSRS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ADD06293-7F60-03A8-8418-6B4075EA3D4C}|Riznyk_Maria_SSRS\\Riznyk_Maria_SSRS.rptproj|E:\\\u041E\u0441\u043E\u0431\u0438\u0441\u0442\u0430 \u043F\u0430\u043F\u043A\u0430\\4 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041D\u0430\u0434\u0432\u0435\u043B\u0438\u043A\u0456 \u0431\u0430\u0437\u0438 \u0434\u0430\u043D\u0438\u0445\\Courcework NVBD - Variant 10 - Riznyk Maria\\Riznyk_Maria_SSRS\\Riznyk_Maria_SSRS\\1_MovieRanking.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{ADD06293-7F60-03A8-8418-6B4075EA3D4C}|Riznyk_Maria_SSRS\\Riznyk_Maria_SSRS.rptproj|solutionrelative:Riznyk_Maria_SSRS\\1_MovieRanking.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADD06293-7F60-03A8-8418-6B4075EA3D4C}|Riznyk_Maria_SSRS\\Riznyk_Maria_SSRS.rptproj|E:\\\u041E\u0441\u043E\u0431\u0438\u0441\u0442\u0430 \u043F\u0430\u043F\u043A\u0430\\4 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041D\u0430\u0434\u0432\u0435\u043B\u0438\u043A\u0456 \u0431\u0430\u0437\u0438 \u0434\u0430\u043D\u0438\u0445\\Courcework NVBD - Variant 10 - Riznyk Maria\\Riznyk_Maria_SSRS\\Riznyk_Maria_SSRS\\5_Dashboard.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{ADD06293-7F60-03A8-8418-6B4075EA3D4C}|Riznyk_Maria_SSRS\\Riznyk_Maria_SSRS.rptproj|solutionrelative:Riznyk_Maria_SSRS\\5_Dashboard.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADD06293-7F60-03A8-8418-6B4075EA3D4C}|Riznyk_Maria_SSRS\\Riznyk_Maria_SSRS.rptproj|E:\\\u041E\u0441\u043E\u0431\u0438\u0441\u0442\u0430 \u043F\u0430\u043F\u043A\u0430\\4 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041D\u0430\u0434\u0432\u0435\u043B\u0438\u043A\u0456 \u0431\u0430\u0437\u0438 \u0434\u0430\u043D\u0438\u0445\\Courcework NVBD - Variant 10 - Riznyk Maria\\Riznyk_Maria_SSRS\\Riznyk_Maria_SSRS\\3_ChannelCharts.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{ADD06293-7F60-03A8-8418-6B4075EA3D4C}|Riznyk_Maria_SSRS\\Riznyk_Maria_SSRS.rptproj|solutionrelative:Riznyk_Maria_SSRS\\3_ChannelCharts.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADD06293-7F60-03A8-8418-6B4075EA3D4C}|Riznyk_Maria_SSRS\\Riznyk_Maria_SSRS.rptproj|E:\\\u041E\u0441\u043E\u0431\u0438\u0441\u0442\u0430 \u043F\u0430\u043F\u043A\u0430\\4 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041D\u0430\u0434\u0432\u0435\u043B\u0438\u043A\u0456 \u0431\u0430\u0437\u0438 \u0434\u0430\u043D\u0438\u0445\\Courcework NVBD - Variant 10 - Riznyk Maria\\Riznyk_Maria_SSRS\\Riznyk_Maria_SSRS\\4_Financial.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{ADD06293-7F60-03A8-8418-6B4075EA3D4C}|Riznyk_Maria_SSRS\\Riznyk_Maria_SSRS.rptproj|solutionrelative:Riznyk_Maria_SSRS\\4_Financial.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADD06293-7F60-03A8-8418-6B4075EA3D4C}|Riznyk_Maria_SSRS\\Riznyk_Maria_SSRS.rptproj|E:\\\u041E\u0441\u043E\u0431\u0438\u0441\u0442\u0430 \u043F\u0430\u043F\u043A\u0430\\4 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041D\u0430\u0434\u0432\u0435\u043B\u0438\u043A\u0456 \u0431\u0430\u0437\u0438 \u0434\u0430\u043D\u0438\u0445\\Courcework NVBD - Variant 10 - Riznyk Maria\\Riznyk_Maria_SSRS\\Riznyk_Maria_SSRS\\2_ConsumerMatrix.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{ADD06293-7F60-03A8-8418-6B4075EA3D4C}|Riznyk_Maria_SSRS\\Riznyk_Maria_SSRS.rptproj|solutionrelative:Riznyk_Maria_SSRS\\2_ConsumerMatrix.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "5_Dashboard.rdl [Design]",
+              "DocumentMoniker": "E:\\\u041E\u0441\u043E\u0431\u0438\u0441\u0442\u0430 \u043F\u0430\u043F\u043A\u0430\\4 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041D\u0430\u0434\u0432\u0435\u043B\u0438\u043A\u0456 \u0431\u0430\u0437\u0438 \u0434\u0430\u043D\u0438\u0445\\Courcework NVBD - Variant 10 - Riznyk Maria\\Riznyk_Maria_SSRS\\Riznyk_Maria_SSRS\\5_Dashboard.rdl",
+              "RelativeDocumentMoniker": "Riznyk_Maria_SSRS\\5_Dashboard.rdl",
+              "ToolTip": "E:\\\u041E\u0441\u043E\u0431\u0438\u0441\u0442\u0430 \u043F\u0430\u043F\u043A\u0430\\4 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041D\u0430\u0434\u0432\u0435\u043B\u0438\u043A\u0456 \u0431\u0430\u0437\u0438 \u0434\u0430\u043D\u0438\u0445\\Courcework NVBD - Variant 10 - Riznyk Maria\\Riznyk_Maria_SSRS\\Riznyk_Maria_SSRS\\5_Dashboard.rdl [Design]",
+              "RelativeToolTip": "Riznyk_Maria_SSRS\\5_Dashboard.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-08T13:41:23.838Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "4_Financial.rdl [Design]",
+              "DocumentMoniker": "E:\\\u041E\u0441\u043E\u0431\u0438\u0441\u0442\u0430 \u043F\u0430\u043F\u043A\u0430\\4 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041D\u0430\u0434\u0432\u0435\u043B\u0438\u043A\u0456 \u0431\u0430\u0437\u0438 \u0434\u0430\u043D\u0438\u0445\\Courcework NVBD - Variant 10 - Riznyk Maria\\Riznyk_Maria_SSRS\\Riznyk_Maria_SSRS\\4_Financial.rdl",
+              "RelativeDocumentMoniker": "Riznyk_Maria_SSRS\\4_Financial.rdl",
+              "ToolTip": "E:\\\u041E\u0441\u043E\u0431\u0438\u0441\u0442\u0430 \u043F\u0430\u043F\u043A\u0430\\4 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041D\u0430\u0434\u0432\u0435\u043B\u0438\u043A\u0456 \u0431\u0430\u0437\u0438 \u0434\u0430\u043D\u0438\u0445\\Courcework NVBD - Variant 10 - Riznyk Maria\\Riznyk_Maria_SSRS\\Riznyk_Maria_SSRS\\4_Financial.rdl [Design]",
+              "RelativeToolTip": "Riznyk_Maria_SSRS\\4_Financial.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-08T00:52:21.247Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "3_ChannelCharts.rdl [Design]",
+              "DocumentMoniker": "E:\\\u041E\u0441\u043E\u0431\u0438\u0441\u0442\u0430 \u043F\u0430\u043F\u043A\u0430\\4 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041D\u0430\u0434\u0432\u0435\u043B\u0438\u043A\u0456 \u0431\u0430\u0437\u0438 \u0434\u0430\u043D\u0438\u0445\\Courcework NVBD - Variant 10 - Riznyk Maria\\Riznyk_Maria_SSRS\\Riznyk_Maria_SSRS\\3_ChannelCharts.rdl",
+              "RelativeDocumentMoniker": "Riznyk_Maria_SSRS\\3_ChannelCharts.rdl",
+              "ToolTip": "E:\\\u041E\u0441\u043E\u0431\u0438\u0441\u0442\u0430 \u043F\u0430\u043F\u043A\u0430\\4 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041D\u0430\u0434\u0432\u0435\u043B\u0438\u043A\u0456 \u0431\u0430\u0437\u0438 \u0434\u0430\u043D\u0438\u0445\\Courcework NVBD - Variant 10 - Riznyk Maria\\Riznyk_Maria_SSRS\\Riznyk_Maria_SSRS\\3_ChannelCharts.rdl [Design]",
+              "RelativeToolTip": "Riznyk_Maria_SSRS\\3_ChannelCharts.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-07T22:02:17.524Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "2_ConsumerMatrix.rdl [Design]",
+              "DocumentMoniker": "E:\\\u041E\u0441\u043E\u0431\u0438\u0441\u0442\u0430 \u043F\u0430\u043F\u043A\u0430\\4 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041D\u0430\u0434\u0432\u0435\u043B\u0438\u043A\u0456 \u0431\u0430\u0437\u0438 \u0434\u0430\u043D\u0438\u0445\\Courcework NVBD - Variant 10 - Riznyk Maria\\Riznyk_Maria_SSRS\\Riznyk_Maria_SSRS\\2_ConsumerMatrix.rdl",
+              "RelativeDocumentMoniker": "Riznyk_Maria_SSRS\\2_ConsumerMatrix.rdl",
+              "ToolTip": "E:\\\u041E\u0441\u043E\u0431\u0438\u0441\u0442\u0430 \u043F\u0430\u043F\u043A\u0430\\4 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041D\u0430\u0434\u0432\u0435\u043B\u0438\u043A\u0456 \u0431\u0430\u0437\u0438 \u0434\u0430\u043D\u0438\u0445\\Courcework NVBD - Variant 10 - Riznyk Maria\\Riznyk_Maria_SSRS\\Riznyk_Maria_SSRS\\2_ConsumerMatrix.rdl [Design]",
+              "RelativeToolTip": "Riznyk_Maria_SSRS\\2_ConsumerMatrix.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-07T21:34:44.574Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "1_MovieRanking.rdl [Design]",
+              "DocumentMoniker": "E:\\\u041E\u0441\u043E\u0431\u0438\u0441\u0442\u0430 \u043F\u0430\u043F\u043A\u0430\\4 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041D\u0430\u0434\u0432\u0435\u043B\u0438\u043A\u0456 \u0431\u0430\u0437\u0438 \u0434\u0430\u043D\u0438\u0445\\Courcework NVBD - Variant 10 - Riznyk Maria\\Riznyk_Maria_SSRS\\Riznyk_Maria_SSRS\\1_MovieRanking.rdl",
+              "RelativeDocumentMoniker": "Riznyk_Maria_SSRS\\1_MovieRanking.rdl",
+              "ToolTip": "E:\\\u041E\u0441\u043E\u0431\u0438\u0441\u0442\u0430 \u043F\u0430\u043F\u043A\u0430\\4 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041D\u0430\u0434\u0432\u0435\u043B\u0438\u043A\u0456 \u0431\u0430\u0437\u0438 \u0434\u0430\u043D\u0438\u0445\\Courcework NVBD - Variant 10 - Riznyk Maria\\Riznyk_Maria_SSRS\\Riznyk_Maria_SSRS\\1_MovieRanking.rdl [Design]",
+              "RelativeToolTip": "Riznyk_Maria_SSRS\\1_MovieRanking.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-07T20:50:55.615Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

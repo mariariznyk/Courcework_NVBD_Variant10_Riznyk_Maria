@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DESKTOP-DG0HJ50_LOCALHOSTMARIA.CableTV_DWH.sa"
+  DTS:DTSID="{0D0975C1-15B8-4F8E-9021-29712097A58C}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=DESKTOP-DG0HJ50\LOCALHOSTMARIA;User ID=sa;Initial Catalog=CableTV_DWH;Provider=SQLOLEDB.1;Application Name=SSIS-Riznyk_Maria_SSIS-{0D0975C1-15B8-4F8E-9021-29712097A58C}DESKTOP-DG0HJ50\LOCALHOSTMARIA.CableTV_DWH.sa;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9kJxBfNzNE6gd/C1HnvPKAAAAAACAAAAAAAQZgAAAAEAACAAAAD37cVWlQkSdyG3szC9dxrBO0iYLOlI7e8eZRFMTqBWdgAAAAAOgAAAAAIAACAAAAA9Zs+z/pI2DI2vciO4m2CbjDMuMXTjJbz8epvhgcbjsnAAAACq91KoEgq1fCINnILjewP6Nv26P0r0iCSCZXrS2pWMzaA0PnBJ99gqbXkSSzGGTedIj+WsU/dN3JqtZnBGXK+E7YUC/xo/Vw5dXbdtH3RRPsxsLjmZlOSbZI9c0+TWfnhdZh/lWezZckYE0Z821q5YQAAAAGdvnKHhPCMJJYWLD4+aF30djgCrVphZkuZVkaYu4tFjHNW2RSVRh8+2w97qBSfJ7M6QoUToocPjX52FuWEfQo0=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

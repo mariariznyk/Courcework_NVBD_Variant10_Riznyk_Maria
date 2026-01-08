@@ -1,0 +1,8 @@
+SELECT TOP (1000) [MovieKey]
+      ,[MovieID_Source]
+      ,[MovieTitle]
+      ,[ReleaseYear]
+      ,[GenreName]
+      ,[AgeRating]
+      ,[BasePrice]
+  FROM [CableTV_DWH].[dbo].[DimMovie]

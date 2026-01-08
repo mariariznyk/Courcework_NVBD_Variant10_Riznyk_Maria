@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\\u041E\u0441\u043E\u0431\u0438\u0441\u0442\u0430 \u043F\u0430\u043F\u043A\u0430\\4 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041D\u0430\u0434\u0432\u0435\u043B\u0438\u043A\u0456 \u0431\u0430\u0437\u0438 \u0434\u0430\u043D\u0438\u0445\\Courcework NVBD - Variant 10 - Riznyk Maria\\Riznyk_Maria_SSIS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EBD37-39EB-C554-AAFE-0D712767AF6A}|Riznyk_Maria_SSIS\\Riznyk_Maria_SSIS.dtproj|E:\\\u041E\u0441\u043E\u0431\u0438\u0441\u0442\u0430 \u043F\u0430\u043F\u043A\u0430\\4 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041D\u0430\u0434\u0432\u0435\u043B\u0438\u043A\u0456 \u0431\u0430\u0437\u0438 \u0434\u0430\u043D\u0438\u0445\\Courcework NVBD - Variant 10 - Riznyk Maria\\Riznyk_Maria_SSIS\\Riznyk_Maria_SSIS\\LoadFactFinancials.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{B25EBD37-39EB-C554-AAFE-0D712767AF6A}|Riznyk_Maria_SSIS\\Riznyk_Maria_SSIS.dtproj|solutionrelative:Riznyk_Maria_SSIS\\LoadFactFinancials.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EBD37-39EB-C554-AAFE-0D712767AF6A}|Riznyk_Maria_SSIS\\Riznyk_Maria_SSIS.dtproj|E:\\\u041E\u0441\u043E\u0431\u0438\u0441\u0442\u0430 \u043F\u0430\u043F\u043A\u0430\\4 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041D\u0430\u0434\u0432\u0435\u043B\u0438\u043A\u0456 \u0431\u0430\u0437\u0438 \u0434\u0430\u043D\u0438\u0445\\Courcework NVBD - Variant 10 - Riznyk Maria\\Riznyk_Maria_SSIS\\Riznyk_Maria_SSIS\\LoadSubscribers.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{B25EBD37-39EB-C554-AAFE-0D712767AF6A}|Riznyk_Maria_SSIS\\Riznyk_Maria_SSIS.dtproj|solutionrelative:Riznyk_Maria_SSIS\\LoadSubscribers.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EBD37-39EB-C554-AAFE-0D712767AF6A}|Riznyk_Maria_SSIS\\Riznyk_Maria_SSIS.dtproj|E:\\\u041E\u0441\u043E\u0431\u0438\u0441\u0442\u0430 \u043F\u0430\u043F\u043A\u0430\\4 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041D\u0430\u0434\u0432\u0435\u043B\u0438\u043A\u0456 \u0431\u0430\u0437\u0438 \u0434\u0430\u043D\u0438\u0445\\Courcework NVBD - Variant 10 - Riznyk Maria\\Riznyk_Maria_SSIS\\Riznyk_Maria_SSIS\\LoadFactMovies.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{B25EBD37-39EB-C554-AAFE-0D712767AF6A}|Riznyk_Maria_SSIS\\Riznyk_Maria_SSIS.dtproj|solutionrelative:Riznyk_Maria_SSIS\\LoadFactMovies.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EBD37-39EB-C554-AAFE-0D712767AF6A}|Riznyk_Maria_SSIS\\Riznyk_Maria_SSIS.dtproj|E:\\\u041E\u0441\u043E\u0431\u0438\u0441\u0442\u0430 \u043F\u0430\u043F\u043A\u0430\\4 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041D\u0430\u0434\u0432\u0435\u043B\u0438\u043A\u0456 \u0431\u0430\u0437\u0438 \u0434\u0430\u043D\u0438\u0445\\Courcework NVBD - Variant 10 - Riznyk Maria\\Riznyk_Maria_SSIS\\Riznyk_Maria_SSIS\\LoadDim.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{B25EBD37-39EB-C554-AAFE-0D712767AF6A}|Riznyk_Maria_SSIS\\Riznyk_Maria_SSIS.dtproj|solutionrelative:Riznyk_Maria_SSIS\\LoadDim.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25EBD37-39EB-C554-AAFE-0D712767AF6A}|Riznyk_Maria_SSIS\\Riznyk_Maria_SSIS.dtproj|E:\\\u041E\u0441\u043E\u0431\u0438\u0441\u0442\u0430 \u043F\u0430\u043F\u043A\u0430\\4 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041D\u0430\u0434\u0432\u0435\u043B\u0438\u043A\u0456 \u0431\u0430\u0437\u0438 \u0434\u0430\u043D\u0438\u0445\\Courcework NVBD - Variant 10 - Riznyk Maria\\Riznyk_Maria_SSIS\\Riznyk_Maria_SSIS\\MasterPackage.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{B25EBD37-39EB-C554-AAFE-0D712767AF6A}|Riznyk_Maria_SSIS\\Riznyk_Maria_SSIS.dtproj|solutionrelative:Riznyk_Maria_SSIS\\MasterPackage.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MasterPackage.dtsx [Design]",
+              "DocumentMoniker": "E:\\\u041E\u0441\u043E\u0431\u0438\u0441\u0442\u0430 \u043F\u0430\u043F\u043A\u0430\\4 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041D\u0430\u0434\u0432\u0435\u043B\u0438\u043A\u0456 \u0431\u0430\u0437\u0438 \u0434\u0430\u043D\u0438\u0445\\Courcework NVBD - Variant 10 - Riznyk Maria\\Riznyk_Maria_SSIS\\Riznyk_Maria_SSIS\\MasterPackage.dtsx",
+              "RelativeDocumentMoniker": "Riznyk_Maria_SSIS\\MasterPackage.dtsx",
+              "ToolTip": "E:\\\u041E\u0441\u043E\u0431\u0438\u0441\u0442\u0430 \u043F\u0430\u043F\u043A\u0430\\4 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041D\u0430\u0434\u0432\u0435\u043B\u0438\u043A\u0456 \u0431\u0430\u0437\u0438 \u0434\u0430\u043D\u0438\u0445\\Courcework NVBD - Variant 10 - Riznyk Maria\\Riznyk_Maria_SSIS\\Riznyk_Maria_SSIS\\MasterPackage.dtsx [Design]",
+              "RelativeToolTip": "Riznyk_Maria_SSIS\\MasterPackage.dtsx [Design]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFTSURBVDhPY2QAgqUbD/8H0bjAu49fGG7fvZ8\u002BqTFrFlQIAv7/h\u002BgDGfDv71\u002BcePKi7f9NPZP/59VPSwNrQAJMUJogaK0pZDh\u002B6uxMdEOINqC6pR9MgwwBM6CABUqDQcWCa1AWA0NHghac//k9G0NcZAiYvWj5GjANAxgu\u002BC2rAcYwAGJz6NkxZEe7QUVQAYYBrI9vgDEMwPhffkEFsAFCsfDp\u002B9//D98jYgOqDQwIBiLI5vc/GBjefP/PwMLGARVFABQDQIEGwyCArPnNdwaGf1iSG85ARNb8\u002BhsDwweQAb\u002BBAmgAZyAia371lYHh7MnrDI9/yzA4hhQwlM29/J/BeCbYPSjpABT3MJvf//jP8BZoK4j95TfE7SD5hy\u002B\u002BMFy5846hCyyCZMDUpbugLFxABq75zPU3UDGoAaDchp7C0AHI6TDNyAaAszNRAOpnFHA2nREAjMTvHMVXB8cAAAAASUVORK5CYII=",
+              "WhenOpened": "2026-01-07T00:12:49.945Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoadFactFinancials.dtsx [Design]",
+              "DocumentMoniker": "E:\\\u041E\u0441\u043E\u0431\u0438\u0441\u0442\u0430 \u043F\u0430\u043F\u043A\u0430\\4 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041D\u0430\u0434\u0432\u0435\u043B\u0438\u043A\u0456 \u0431\u0430\u0437\u0438 \u0434\u0430\u043D\u0438\u0445\\Courcework NVBD - Variant 10 - Riznyk Maria\\Riznyk_Maria_SSIS\\Riznyk_Maria_SSIS\\LoadFactFinancials.dtsx",
+              "RelativeDocumentMoniker": "Riznyk_Maria_SSIS\\LoadFactFinancials.dtsx",
+              "ToolTip": "E:\\\u041E\u0441\u043E\u0431\u0438\u0441\u0442\u0430 \u043F\u0430\u043F\u043A\u0430\\4 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041D\u0430\u0434\u0432\u0435\u043B\u0438\u043A\u0456 \u0431\u0430\u0437\u0438 \u0434\u0430\u043D\u0438\u0445\\Courcework NVBD - Variant 10 - Riznyk Maria\\Riznyk_Maria_SSIS\\Riznyk_Maria_SSIS\\LoadFactFinancials.dtsx [Design]",
+              "RelativeToolTip": "Riznyk_Maria_SSIS\\LoadFactFinancials.dtsx [Design]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFTSURBVDhPY2QAgqUbD/8H0bjAu49fGG7fvZ8\u002BqTFrFlQIAv7/h\u002BgDGfDv71\u002BcePKi7f9NPZP/59VPSwNrQAJMUJogaK0pZDh\u002B6uxMdEOINqC6pR9MgwwBM6CABUqDQcWCa1AWA0NHghac//k9G0NcZAiYvWj5GjANAxgu\u002BC2rAcYwAGJz6NkxZEe7QUVQAYYBrI9vgDEMwPhffkEFsAFCsfDp\u002B9//D98jYgOqDQwIBiLI5vc/GBjefP/PwMLGARVFABQDQIEGwyCArPnNdwaGf1iSG85ARNb8\u002BhsDwweQAb\u002BBAmgAZyAia371lYHh7MnrDI9/yzA4hhQwlM29/J/BeCbYPSjpABT3MJvf//jP8BZoK4j95TfE7SD5hy\u002B\u002BMFy5846hCyyCZMDUpbugLFxABq75zPU3UDGoAaDchp7C0AHI6TDNyAaAszNRAOpnFHA2nREAjMTvHMVXB8cAAAAASUVORK5CYII=",
+              "WhenOpened": "2026-01-06T23:17:05.431Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoadSubscribers.dtsx [Design]",
+              "DocumentMoniker": "E:\\\u041E\u0441\u043E\u0431\u0438\u0441\u0442\u0430 \u043F\u0430\u043F\u043A\u0430\\4 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041D\u0430\u0434\u0432\u0435\u043B\u0438\u043A\u0456 \u0431\u0430\u0437\u0438 \u0434\u0430\u043D\u0438\u0445\\Courcework NVBD - Variant 10 - Riznyk Maria\\Riznyk_Maria_SSIS\\Riznyk_Maria_SSIS\\LoadSubscribers.dtsx",
+              "RelativeDocumentMoniker": "Riznyk_Maria_SSIS\\LoadSubscribers.dtsx",
+              "ToolTip": "E:\\\u041E\u0441\u043E\u0431\u0438\u0441\u0442\u0430 \u043F\u0430\u043F\u043A\u0430\\4 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041D\u0430\u0434\u0432\u0435\u043B\u0438\u043A\u0456 \u0431\u0430\u0437\u0438 \u0434\u0430\u043D\u0438\u0445\\Courcework NVBD - Variant 10 - Riznyk Maria\\Riznyk_Maria_SSIS\\Riznyk_Maria_SSIS\\LoadSubscribers.dtsx [Design]",
+              "RelativeToolTip": "Riznyk_Maria_SSIS\\LoadSubscribers.dtsx [Design]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFTSURBVDhPY2QAgqUbD/8H0bjAu49fGG7fvZ8\u002BqTFrFlQIAv7/h\u002BgDGfDv71\u002BcePKi7f9NPZP/59VPSwNrQAJMUJogaK0pZDh\u002B6uxMdEOINqC6pR9MgwwBM6CABUqDQcWCa1AWA0NHghac//k9G0NcZAiYvWj5GjANAxgu\u002BC2rAcYwAGJz6NkxZEe7QUVQAYYBrI9vgDEMwPhffkEFsAFCsfDp\u002B9//D98jYgOqDQwIBiLI5vc/GBjefP/PwMLGARVFABQDQIEGwyCArPnNdwaGf1iSG85ARNb8\u002BhsDwweQAb\u002BBAmgAZyAia371lYHh7MnrDI9/yzA4hhQwlM29/J/BeCbYPSjpABT3MJvf//jP8BZoK4j95TfE7SD5hy\u002B\u002BMFy5846hCyyCZMDUpbugLFxABq75zPU3UDGoAaDchp7C0AHI6TDNyAaAszNRAOpnFHA2nREAjMTvHMVXB8cAAAAASUVORK5CYII=",
+              "WhenOpened": "2026-01-06T19:31:05.133Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoadDim.dtsx [Design]",
+              "DocumentMoniker": "E:\\\u041E\u0441\u043E\u0431\u0438\u0441\u0442\u0430 \u043F\u0430\u043F\u043A\u0430\\4 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041D\u0430\u0434\u0432\u0435\u043B\u0438\u043A\u0456 \u0431\u0430\u0437\u0438 \u0434\u0430\u043D\u0438\u0445\\Courcework NVBD - Variant 10 - Riznyk Maria\\Riznyk_Maria_SSIS\\Riznyk_Maria_SSIS\\LoadDim.dtsx",
+              "RelativeDocumentMoniker": "Riznyk_Maria_SSIS\\LoadDim.dtsx",
+              "ToolTip": "E:\\\u041E\u0441\u043E\u0431\u0438\u0441\u0442\u0430 \u043F\u0430\u043F\u043A\u0430\\4 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041D\u0430\u0434\u0432\u0435\u043B\u0438\u043A\u0456 \u0431\u0430\u0437\u0438 \u0434\u0430\u043D\u0438\u0445\\Courcework NVBD - Variant 10 - Riznyk Maria\\Riznyk_Maria_SSIS\\Riznyk_Maria_SSIS\\LoadDim.dtsx [Design]",
+              "RelativeToolTip": "Riznyk_Maria_SSIS\\LoadDim.dtsx [Design]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFTSURBVDhPY2QAgqUbD/8H0bjAu49fGG7fvZ8\u002BqTFrFlQIAv7/h\u002BgDGfDv71\u002BcePKi7f9NPZP/59VPSwNrQAJMUJogaK0pZDh\u002B6uxMdEOINqC6pR9MgwwBM6CABUqDQcWCa1AWA0NHghac//k9G0NcZAiYvWj5GjANAxgu\u002BC2rAcYwAGJz6NkxZEe7QUVQAYYBrI9vgDEMwPhffkEFsAFCsfDp\u002B9//D98jYgOqDQwIBiLI5vc/GBjefP/PwMLGARVFABQDQIEGwyCArPnNdwaGf1iSG85ARNb8\u002BhsDwweQAb\u002BBAmgAZyAia371lYHh7MnrDI9/yzA4hhQwlM29/J/BeCbYPSjpABT3MJvf//jP8BZoK4j95TfE7SD5hy\u002B\u002BMFy5846hCyyCZMDUpbugLFxABq75zPU3UDGoAaDchp7C0AHI6TDNyAaAszNRAOpnFHA2nREAjMTvHMVXB8cAAAAASUVORK5CYII=",
+              "WhenOpened": "2026-01-06T18:55:26.564Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoadFactMovies.dtsx [Design]",
+              "DocumentMoniker": "E:\\\u041E\u0441\u043E\u0431\u0438\u0441\u0442\u0430 \u043F\u0430\u043F\u043A\u0430\\4 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041D\u0430\u0434\u0432\u0435\u043B\u0438\u043A\u0456 \u0431\u0430\u0437\u0438 \u0434\u0430\u043D\u0438\u0445\\Courcework NVBD - Variant 10 - Riznyk Maria\\Riznyk_Maria_SSIS\\Riznyk_Maria_SSIS\\LoadFactMovies.dtsx",
+              "RelativeDocumentMoniker": "Riznyk_Maria_SSIS\\LoadFactMovies.dtsx",
+              "ToolTip": "E:\\\u041E\u0441\u043E\u0431\u0438\u0441\u0442\u0430 \u043F\u0430\u043F\u043A\u0430\\4 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041D\u0430\u0434\u0432\u0435\u043B\u0438\u043A\u0456 \u0431\u0430\u0437\u0438 \u0434\u0430\u043D\u0438\u0445\\Courcework NVBD - Variant 10 - Riznyk Maria\\Riznyk_Maria_SSIS\\Riznyk_Maria_SSIS\\LoadFactMovies.dtsx [Design]",
+              "RelativeToolTip": "Riznyk_Maria_SSIS\\LoadFactMovies.dtsx [Design]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFTSURBVDhPY2QAgqUbD/8H0bjAu49fGG7fvZ8\u002BqTFrFlQIAv7/h\u002BgDGfDv71\u002BcePKi7f9NPZP/59VPSwNrQAJMUJogaK0pZDh\u002B6uxMdEOINqC6pR9MgwwBM6CABUqDQcWCa1AWA0NHghac//k9G0NcZAiYvWj5GjANAxgu\u002BC2rAcYwAGJz6NkxZEe7QUVQAYYBrI9vgDEMwPhffkEFsAFCsfDp\u002B9//D98jYgOqDQwIBiLI5vc/GBjefP/PwMLGARVFABQDQIEGwyCArPnNdwaGf1iSG85ARNb8\u002BhsDwweQAb\u002BBAmgAZyAia371lYHh7MnrDI9/yzA4hhQwlM29/J/BeCbYPSjpABT3MJvf//jP8BZoK4j95TfE7SD5hy\u002B\u002BMFy5846hCyyCZMDUpbugLFxABq75zPU3UDGoAaDchp7C0AHI6TDNyAaAszNRAOpnFHA2nREAjMTvHMVXB8cAAAAASUVORK5CYII=",
+              "WhenOpened": "2026-01-06T20:04:07.218Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

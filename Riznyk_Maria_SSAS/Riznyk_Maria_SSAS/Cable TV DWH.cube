@@ -1,0 +1,897 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="051efec4-d8f5-4182-b765-107f1f58dc38" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Cable TV DWH</ID>
+  <Name>Cable TV DWH</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="30" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-12418" scrolltop="490" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="38735" y="12250" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimPaymentMethod" left="11638" top="13425" logicalid="15" controlid="1" masterid="0" hint1="0" hint2="0" width="4604" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000fc110000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimPaymentMethod" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimMovie" left="5420" top="6607" logicalid="16" controlid="2" masterid="0" hint1="0" hint2="0" width="3334" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000060d00009b0f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimMovie" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimDate" left="20" top="0" logicalid="17" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000ea120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimDate" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimChannelGroup" left="5190" top="18974" logicalid="18" controlid="4" masterid="0" hint1="0" hint2="0" width="4366" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00000e110000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimChannelGroup" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimSubscriber" left="10836" top="635" logicalid="19" controlid="5" masterid="0" hint1="0" hint2="0" width="3889" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000310f0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimSubscriber" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="FactMovieOperations" left="5420" top="635" logicalid="20" controlid="6" masterid="0" hint1="0" hint2="0" width="3016" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000c80b0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_FactMovieOperations" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="FactFinancials" left="5507" top="12579" logicalid="21" controlid="7" masterid="0" hint1="0" hint2="0" width="3731" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000930e00009b0f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_FactFinancials" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="8938" top="14177" logicalid="22" controlid="8" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_FactFin_Method]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="7" sourceattachpoint="20" destattachpoint="21" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="11638" y="14576" />
+              <point x="9238" y="14576" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="6628" top="3907" logicalid="23" controlid="9" masterid="0" hint1="0" hint2="0" width="859" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_FactMovie_Movie]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="6" sourceattachpoint="4" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7087" y="6607" />
+              <point x="7087" y="5407" />
+              <point x="6928" y="5407" />
+              <point x="6928" y="4207" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="1121" top="4343" logicalid="24" controlid="10" masterid="0" hint1="0" hint2="0" width="5451" height="8536" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_FactFin_Date]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="7" sourceattachpoint="5" destattachpoint="2" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1520" y="4842" />
+              <point x="1520" y="8710" />
+              <point x="6272" y="8710" />
+              <point x="6272" y="12579" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="2720" top="2022" logicalid="25" controlid="11" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_FactMovie_Date]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="6" sourceattachpoint="19" destattachpoint="16" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3020" y="2421" />
+              <point x="5420" y="2421" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="6974" top="16274" logicalid="26" controlid="12" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_FactFinancials_DimChannelGroup]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="7" sourceattachpoint="6" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7373" y="18974" />
+              <point x="7373" y="17774" />
+              <point x="7372" y="17774" />
+              <point x="7372" y="16574" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="7622" top="3708" logicalid="27" controlid="13" masterid="0" hint1="0" hint2="0" width="5558" height="9171" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_FactFin_Sub]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="7" sourceattachpoint="7" destattachpoint="8" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="12780" y="4207" />
+              <point x="12780" y="8393" />
+              <point x="7922" y="8393" />
+              <point x="7922" y="12579" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="8136" top="2022" logicalid="28" controlid="14" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_FactMovie_Sub]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="6" sourceattachpoint="20" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="10836" y="2421" />
+              <point x="8436" y="2421" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-12418</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>490</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>75</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="c9e68208-1a26-42af-b355-c90f3a651105">
+      <ID>Dim Payment Method</ID>
+      <Name>Dim Payment Method</Name>
+      <DimensionID>Dim Payment Method</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="c291f5d9-9698-42e4-83a4-ebf7f1cc23a5">
+          <AttributeID>Payment Method Key</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="87312ab5-92f0-4e3f-8da5-108657b60245">
+      <ID>Dim Channel Group</ID>
+      <Name>Dim Channel Group</Name>
+      <DimensionID>Dim Channel Group</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="91d9bc82-71f6-4717-9a81-eed73ae41ab7">
+          <AttributeID>Channel Group Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="91988105-1489-427f-97ab-0275b9f8ecb8">
+          <AttributeID>Monthly Fee</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="3ed784d3-1e53-4aeb-847a-a30f738a1e0e">
+      <ID>Dim Date</ID>
+      <Name>Dim Date</Name>
+      <DimensionID>Dim Date</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="98ca2bb4-4200-416a-acbb-2472b43f4e86">
+          <AttributeID>Date Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6a89e1af-bc84-48f3-b4c5-36eb66158b42">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="59564523-e869-4e38-9008-d1522b26d6a2">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2a629f4e-50c7-4248-9e41-698bda7323a6">
+          <AttributeID>Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c4412584-3622-4ad1-829b-eb1e5a41203e">
+          <AttributeID>Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="716860a0-cd4b-4582-a3e0-9d4a0d74638d">
+          <AttributeID>Day Of Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c0a710cf-91b5-4d28-86b1-6e3410adfca6">
+          <AttributeID>Day Name</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="82e92b06-b741-4256-9405-d3649ce71e01">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="1b29261d-cc76-4c72-abd5-e8449856e8f8">
+      <ID>Dim Subscriber</ID>
+      <Name>Dim Subscriber</Name>
+      <DimensionID>Dim Subscriber</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="45567d98-4f4a-4d82-9516-ab9c8bb9b3f2">
+          <AttributeID>Subscriber Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8d66e8dc-1ce4-4877-9e67-079e33be90c4">
+          <AttributeID>City</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="37b8764b-c7a1-4c82-bb15-7c590934740d">
+          <AttributeID>Age Group</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7c3c55ca-c4b6-4f8d-9209-366a37310f3c">
+          <AttributeID>Current Status</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="6fc23319-e43e-4b2c-852a-d0982c430ae6">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="4112c161-b243-4ec5-88ca-678838381c4e">
+      <ID>Dim Movie</ID>
+      <Name>Dim Movie</Name>
+      <DimensionID>Dim Movie</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="bda9fe33-3fd4-4592-8e74-14b5bb661689">
+          <AttributeID>Movie Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="af36c72e-57db-4b08-a269-4f11a0140106">
+          <AttributeID>Release Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ba0a68f7-610a-49f2-81e7-f33f3ae3c2e2">
+          <AttributeID>Genre Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="60d2ed96-b674-4bc4-9317-d831064d878f">
+          <AttributeID>Age Rating</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e8639994-3f46-454d-9a63-a0f94e804a37">
+          <AttributeID>Base Price</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="f8e816b0-71f6-432e-9194-7f4a0cbe9a1b">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <Perspectives>
+    <Perspective dwd:design-time-name="a65d7ee6-a332-42c0-bedc-3ab443c40e48">
+      <ID>Perspective</ID>
+      <Name>Financial View</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Dimensions>
+        <Dimension dwd:design-time-name="a6c61de5-10c0-4b5a-aa92-782c0cb46790">
+          <CubeDimensionID>Dim Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="70078a4a-f76f-45f6-b71b-485b7fbefc49">
+              <AttributeID>Date Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="dc69f128-0452-4986-be1c-dc2b30f73892">
+              <AttributeID>Year</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="68f78815-a16d-4ec9-8b3f-2d57dfa96e5b">
+              <AttributeID>Month</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="648ed255-1405-4f1c-9379-5f968382d654">
+              <AttributeID>Month Name</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="430f7137-4855-4287-93da-de525e258d03">
+              <AttributeID>Quarter</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="ec735703-4cba-4a65-8675-c83cf7c1765b">
+              <AttributeID>Day Of Week</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="ffc0295b-a112-4967-9619-5015946dbdd7">
+              <AttributeID>Day Name</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="eda4f4a4-8388-48bd-9964-a8af4e7bce94">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension dwd:design-time-name="2dd1d2e1-f2ac-4b9b-b7ae-23a3b8229e39">
+          <CubeDimensionID>Dim Payment Method</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="af7bc7b8-d7a9-410e-a4dd-eb1f882337c9">
+              <AttributeID>Payment Method Key</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension dwd:design-time-name="940ffc9a-7204-4b74-a142-ab1ee20bbcae">
+          <CubeDimensionID>Dim Channel Group</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="82332466-3a9a-440f-ac7d-43aa074a015c">
+              <AttributeID>Channel Group Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="2f609019-5452-494c-8a61-a06dc7e3f80d">
+              <AttributeID>Monthly Fee</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <MeasureGroups>
+        <MeasureGroup dwd:design-time-name="4c2db43c-0c62-4922-9e6b-f5d3edd38b0b">
+          <MeasureGroupID>Fact Financials</MeasureGroupID>
+          <Measures>
+            <Measure dwd:design-time-name="2265f8f6-cdad-4156-a549-0f2d97101447">
+              <MeasureID>Amount</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="2f9e37fc-b581-428c-ad28-b0f59495eb02">
+              <MeasureID>Fact Financials Count</MeasureID>
+            </Measure>
+          </Measures>
+        </MeasureGroup>
+      </MeasureGroups>
+      <Calculations>
+        <Calculation dwd:design-time-name="5acc6e53-08e4-4c0d-9291-24b21efe5f68">
+          <Name>[Measures].[Income YTD]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="e52a847d-04a9-4cdc-a639-5299b158c314">
+          <Name>[Measures].[Average Revenue Per User Movie]</Name>
+          <Type>Member</Type>
+        </Calculation>
+      </Calculations>
+    </Perspective>
+    <Perspective dwd:design-time-name="4e8de835-2bc6-4a92-9247-785d9d631877">
+      <ID>Perspective 1</ID>
+      <Name>Content Manager View</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Dimensions>
+        <Dimension dwd:design-time-name="49f55526-e97f-442c-9e0a-67da77cd2fc1">
+          <CubeDimensionID>Dim Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="241ee59d-ba3f-42d8-8bab-cb931d68e361">
+              <AttributeID>Date Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="59bb29c6-699b-483f-9601-cdd66e913818">
+              <AttributeID>Year</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="a9c4b166-2613-48cf-8268-a2abcfd70150">
+              <AttributeID>Month</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="a3bad2b3-cb2f-439d-a516-bbb38a19638f">
+              <AttributeID>Month Name</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="eb25e636-daee-4fbd-ba77-27ee50c135c5">
+              <AttributeID>Quarter</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="cd09c5a9-a68e-4dc1-8040-56d516606ab7">
+              <AttributeID>Day Of Week</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="0eaadcc6-9fce-4420-a7bc-68147f75cce4">
+              <AttributeID>Day Name</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="b085b474-0861-4599-936d-e11a957185c3">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension dwd:design-time-name="d0180999-2b07-4064-8cb3-8a875237cfa7">
+          <CubeDimensionID>Dim Subscriber</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="29851a22-f1d6-4ca0-9532-07cda2c0f6ad">
+              <AttributeID>Subscriber Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="4989e667-36d2-40a4-a9ac-8bd5f370f638">
+              <AttributeID>City</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="968bcb8e-75d2-4ba7-8a97-eaba7ae4a658">
+              <AttributeID>Age Group</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="de807c76-3775-4551-b4a6-125d30de9eca">
+              <AttributeID>Current Status</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="12338f9a-4b47-452f-b3b0-1ad30c5a59c8">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension dwd:design-time-name="f47c316a-60b8-4028-b28d-a0cb0412aa28">
+          <CubeDimensionID>Dim Movie</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d211df5e-4a8a-454d-bdf3-4598b69ad038">
+              <AttributeID>Movie Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="5fc2980e-3435-4407-ae41-cf2a457e39a6">
+              <AttributeID>Release Year</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="12307f84-9cca-41c7-aa84-deef8514020a">
+              <AttributeID>Genre Name</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="f569f723-7442-4d6f-ad1a-4683c56b569f">
+              <AttributeID>Age Rating</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="37d1f82d-3281-45ca-b098-83a975815910">
+              <AttributeID>Base Price</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="8f8eac2b-1f2d-4850-a11e-7e35342e9224">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+      </Dimensions>
+      <MeasureGroups>
+        <MeasureGroup dwd:design-time-name="713f7c8d-9cc5-4b32-afdf-17c2a8395098">
+          <MeasureGroupID>Fact Movie Operations</MeasureGroupID>
+          <Measures>
+            <Measure dwd:design-time-name="6d5aa5ab-a651-428b-8d8a-b6fb696e91b3">
+              <MeasureID>Price Paid</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="04b745dd-b3e1-40dd-aa63-49c9fb190c35">
+              <MeasureID>Fact Movie Operations Count</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="b40cb8c6-80ec-428c-87c7-5dcd8d255e6c">
+              <MeasureID>Maximum Price Paid</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="9e1dee2b-f7a7-4697-9328-52ed6a7bb71e">
+              <MeasureID>Price Paid 1</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="90cd77bb-34cc-4033-a209-e5bb08aa1544">
+              <MeasureID>Subscriber Key</MeasureID>
+            </Measure>
+          </Measures>
+        </MeasureGroup>
+      </MeasureGroups>
+      <Calculations>
+        <Calculation dwd:design-time-name="c39a97a6-baae-403e-8625-10946b54cea8">
+          <Name>Top 10 Movies</Name>
+          <Type>Set</Type>
+        </Calculation>
+      </Calculations>
+    </Perspective>
+  </Perspectives>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="daaf3aa0-44c4-4fe8-8f43-adee9998ec67">
+      <ID>Fact Financials</ID>
+      <Name>Fact Financials</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="e364c3c8-2e7d-47f6-9a38-102325398d28">
+          <ID>Amount</ID>
+          <Name>Total Income</Name>
+          <Source dwd:design-time-name="54a5de08-2ea8-4543-afdc-60922a850657">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="76e5fcd5-3d34-4511-aa81-508b466e784d">
+              <TableID>dbo_FactFinancials</TableID>
+              <ColumnID>Amount</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="a63556be-3ab1-48c4-8321-9a19c66069e9">
+          <ID>Fact Financials Count</ID>
+          <Name>Transaction Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="c5491858-910f-49a4-a01a-8ee7eefc5184">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="70c655f6-cf0c-4294-97d5-4c63a45b7048">
+              <TableID>dbo_FactFinancials</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9012f955-55ba-4de5-a4af-45906ad004e8">
+          <CubeDimensionID>Dim Payment Method</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7bb82cec-0509-4ab4-8913-d881facbb64e">
+              <AttributeID>Payment Method Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e1fd4eb5-e3ce-4f8d-92f6-c0b26b120b6c">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="96b78f73-e561-4d72-85ea-93550f04f7e3">
+                    <TableID>dbo_FactFinancials</TableID>
+                    <ColumnID>PaymentMethodKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="64b256c3-ca6a-4100-bb48-45c79eeefc91">
+          <CubeDimensionID>Dim Channel Group</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d8ecbacf-b5e7-4346-8ec1-96c6c3e84c45">
+              <AttributeID>Channel Group Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="22760dfd-0873-420a-80ee-113b95f70764">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="df0cde85-ab6f-419d-8574-a2966471d4f2">
+                    <TableID>dbo_FactFinancials</TableID>
+                    <ColumnID>ChannelGroupKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8ab96396-e620-4d26-88e5-37b72e378e81">
+          <CubeDimensionID>Dim Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="9edb8afb-4b24-456f-982b-fbd139b798bc">
+              <AttributeID>Date Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="a8c1e905-8eb8-4c99-a314-2b00fb7bde22">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="66715ef7-2ae8-426e-9b2d-7f0720860aa2">
+                    <TableID>dbo_FactFinancials</TableID>
+                    <ColumnID>DateKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3970741d-7572-4b7d-826f-33302dccd7fb">
+          <CubeDimensionID>Dim Subscriber</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="5b8edab9-2a08-4197-9857-1c800c9ab754">
+              <AttributeID>Subscriber Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="43075cb8-75f8-41ad-8024-78aaaa4e493b">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="82c462a5-55c4-4648-843b-38e7408be2ad">
+                    <TableID>dbo_FactFinancials</TableID>
+                    <ColumnID>SubscriberKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="e4b24dd8-b8cb-4fd0-9dc4-9883a0d2d2ff">
+      <ID>Fact Movie Operations</ID>
+      <Name>Fact Movie Operations</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="0966c55f-7e8a-4940-b038-9aadc79e6ac3">
+          <ID>Price Paid</ID>
+          <Name>Total Movie Revenue</Name>
+          <Source dwd:design-time-name="41e8d0c2-45b9-41b8-b202-2457620f6623">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8531b76b-10fb-493c-bfe9-90207da767d9">
+              <TableID>dbo_FactMovieOperations</TableID>
+              <ColumnID>PricePaid</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="fe15652f-2f07-49a0-928d-b8031ad1be34">
+          <ID>Fact Movie Operations Count</ID>
+          <Name>Fact Movie Operations Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="0baf39fa-6c7e-443e-ae0c-f7323128ec2a">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="982a5c19-9dd2-4731-acfe-d0365203954b">
+              <TableID>dbo_FactMovieOperations</TableID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="a7d3eff9-fa73-4ebc-a794-201ab09e4c58">
+          <ID>Maximum Price Paid</ID>
+          <Name>Max Movie Price</Name>
+          <AggregateFunction>Max</AggregateFunction>
+          <Source dwd:design-time-name="6ba6a9e8-3fb4-4e16-889b-8ceb460b1e32">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="bd6ce9f1-738b-4711-b07c-293b1026496a">
+              <TableID>dbo_FactMovieOperations</TableID>
+              <ColumnID>PricePaid</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="650521cb-edbe-4fd4-9755-9c918632af7a">
+          <ID>Price Paid 1</ID>
+          <Name>Avg Movie Price</Name>
+          <AggregateFunction>AverageOfChildren</AggregateFunction>
+          <Source dwd:design-time-name="6d365a56-4b79-4a5c-a6e8-4bdb6a754aa4">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="db157613-b6fe-44df-9ad9-74e6457ec7a0">
+              <TableID>dbo_FactMovieOperations</TableID>
+              <ColumnID>PricePaid</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="039ef129-ceab-4052-9ab0-fc2e9b360c08">
+          <ID>Subscriber Key</ID>
+          <Name>Unique Viewers</Name>
+          <AggregateFunction>DistinctCount</AggregateFunction>
+          <Source dwd:design-time-name="99ea1a15-8e63-4fba-9856-db15b7978596">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4f3b123a-b0b0-4d66-8edd-d1a7f9ac2589">
+              <TableID>dbo_FactMovieOperations</TableID>
+              <ColumnID>SubscriberKey</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <EstimatedRows>1000000</EstimatedRows>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="81dcb0f3-facb-4788-bd6d-47eabf945410">
+          <CubeDimensionID>Dim Movie</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e7253d75-7909-49aa-a873-8869afe24c62">
+              <AttributeID>Movie Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="a513d45d-180d-4170-9a81-122fb0c33b1c">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f4b361a1-a653-42ce-9e50-710f5abaceba">
+                    <TableID>dbo_FactMovieOperations</TableID>
+                    <ColumnID>MovieKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5146dce9-6901-4acf-aea1-2d82521f12be">
+          <CubeDimensionID>Dim Subscriber</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6e34d82f-d540-4439-b8f6-eb7aa03d1e37">
+              <AttributeID>Subscriber Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f549dfd5-0e20-416b-bf86-37853f9aa367">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6e687a78-952d-480e-8d8e-22a59b3dc02c">
+                    <TableID>dbo_FactMovieOperations</TableID>
+                    <ColumnID>SubscriberKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f323293c-1f9e-4e99-8f96-4af0b24ed009">
+          <CubeDimensionID>Dim Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e7289ec4-da26-4a74-8519-202393f54055">
+              <AttributeID>Date Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b4801909-f892-480d-a819-a3dea094f339">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9672265c-8d5d-41d2-bff0-b7591f8c93f0">
+                    <TableID>dbo_FactMovieOperations</TableID>
+                    <ColumnID>DateKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+      <AggregationDesigns />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="ee8b63ca-cbf8-4bda-ba02-a760c0d3b611">
+    <DataSourceViewID>Cable TV DWH</DataSourceViewID>
+  </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="c6c3768f-6ee5-42bb-8b27-b801bfc9c9c9">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>/*
+The CALCULATE command controls the aggregation of leaf cells in the cube.
+If the CALCULATE command is deleted or modified, the data within the cube is affected.
+You should edit this command only if you manually specify how the cube is aggregated.
+*/
+CALCULATE;  
+CREATE MEMBER CURRENTCUBE.[Measures].[Income YTD]
+ AS Aggregate(
+    PeriodsToDate(
+        [Dim Date].[Calendar].[Year],
+        [Dim Date].[Calendar].CurrentMember
+    ),
+    [Measures].[Total Income]
+), 
+FORMAT_STRING = "Currency", 
+VISIBLE = 1;  
+CREATE MEMBER CURRENTCUBE.[Measures].[Income YoY Growth]
+ AS IIF(
+    ([Measures].[Total Income], ParallelPeriod([Dim Date].[Calendar].[Year], 1, [Dim Date].[Calendar].CurrentMember)) = 0,
+    NULL,
+    (
+        [Measures].[Total Income] -
+        ([Measures].[Total Income], ParallelPeriod([Dim Date].[Calendar].[Year], 1, [Dim Date].[Calendar].CurrentMember))
+    )
+    /
+    ([Measures].[Total Income], ParallelPeriod([Dim Date].[Calendar].[Year], 1, [Dim Date].[Calendar].CurrentMember))
+), 
+FORMAT_STRING = "Percent", 
+VISIBLE = 1;  
+CREATE MEMBER CURRENTCUBE.[Measures].[Average Revenue Per User Movie]
+ AS IIF(
+    [Measures].[Unique Viewers] = 0,
+    NULL,
+    [Measures].[Total Movie Revenue] / [Measures].[Unique Viewers]
+), 
+FORMAT_STRING = "Currency", 
+VISIBLE = 1; 
+CREATE DYNAMIC SET CURRENTCUBE.[Top 10 Movies]
+ AS TopCount(
+    [Dim Movie].[Movie Title].[Movie Title].Members,
+    10,
+    [Measures].[Total Movie Revenue]
+) ; </Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
+  <Kpis>
+    <Kpi dwd:design-time-name="983c0b3f-8c28-4270-a0ee-f817f57f1950">
+      <ID>KPI</ID>
+      <Name>Growth KPI</Name>
+      <Value>[Measures].[Income YoY Growth]</Value>
+      <Goal>0.002</Goal>
+      <Status>Case
+  When [Measures].[Income YoY Growth] &gt;= 0.002 Then 1
+  When [Measures].[Income YoY Growth] &gt;= 0 Then 0
+  Else -1
+End</Status>
+      <Trend>Case
+  When [Measures].[Income YoY Growth] &gt; ( [Measures].[Income YoY Growth], ParallelPeriod([Dim Date].[Calendar].[Month], 1, [Dim Date].[Calendar].CurrentMember) ) Then 1
+  Else -1
+End</Trend>
+      <TrendGraphic>Standard Arrow</TrendGraphic>
+      <StatusGraphic>Traffic Light</StatusGraphic>
+    </Kpi>
+  </Kpis>
+</Cube>

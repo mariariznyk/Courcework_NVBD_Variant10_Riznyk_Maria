@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36811.4 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Riznyk_Maria_SSRS", "Riznyk_Maria_SSRS\Riznyk_Maria_SSRS.rptproj", "{ADD06293-7F60-03A8-8418-6B4075EA3D4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADD06293-7F60-03A8-8418-6B4075EA3D4C}.Debug|Default.ActiveCfg = Debug
+		{ADD06293-7F60-03A8-8418-6B4075EA3D4C}.Debug|Default.Build.0 = Debug
+		{ADD06293-7F60-03A8-8418-6B4075EA3D4C}.Debug|Default.Deploy.0 = Debug
+		{ADD06293-7F60-03A8-8418-6B4075EA3D4C}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{ADD06293-7F60-03A8-8418-6B4075EA3D4C}.DebugLocal|Default.Build.0 = DebugLocal
+		{ADD06293-7F60-03A8-8418-6B4075EA3D4C}.Release|Default.ActiveCfg = Release
+		{ADD06293-7F60-03A8-8418-6B4075EA3D4C}.Release|Default.Build.0 = Release
+		{ADD06293-7F60-03A8-8418-6B4075EA3D4C}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E3AE183-7881-4026-9250-8A3FBAB78B64}
+	EndGlobalSection
+EndGlobal

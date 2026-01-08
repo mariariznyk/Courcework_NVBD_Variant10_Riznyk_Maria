@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Riznyk_Maria_SSAS</Database>
+    <Server>DESKTOP-DG0HJ50\LOCALHOSTMARIA</Server>
+    <ConnectionString>Data Source=DESKTOP-DG0HJ50\LOCALHOSTMARIA;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>jdJ+bmDdC3uorSxvwJxXcwI76e0=07.01.2026 3:40:3007.01.2026 3:40:30</TimeStamp>
+        <ID>
+          <String>Cable TV DWH</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>RyXrVn3nbyb2XyC3Xs3oPiJ2FWs=07.01.2026 6:40:0507.01.2026 6:29:09</TimeStamp>
+        <ID>
+          <String>Cable TV DWH</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>zqj2/E/MPWJKe1VR95A1W6xBfPA=07.01.2026 20:50:5807.01.2026 6:40:05</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ru3BOaGg30cM51WkwDX1C6RjDC0=07.01.2026 20:50:5807.01.2026 6:47:46</TimeStamp>
+        <ID>
+          <String>Dim Subscriber</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>R+Ovic/Gnxp+He4ukFAdwEzD9Us=07.01.2026 20:50:5807.01.2026 6:49:54</TimeStamp>
+        <ID>
+          <String>Dim Movie</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>A+pzP5S5Vfu3vX0d/pqr13W4dWM=08.01.2026 0:30:1507.01.2026 6:51:10</TimeStamp>
+        <ID>
+          <String>Dim Payment Method</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>E6OZ/0QUjEv+vFiOqh5sHmzurYk=08.01.2026 0:30:1507.01.2026 6:51:56</TimeStamp>
+        <ID>
+          <String>Dim Channel Group</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>xr12x4c9D4s87GPnNyBE9Y/aWh8=08.01.2026 4:22:0807.01.2026 6:55:316g1Q8sNGgFdCNWd4ACs7Q5Y84ag=07.01.2026 20:50:5707.01.2026 6:55:31</TimeStamp>
+        <ID>
+          <String>Cable TV DWH</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>dBS3Z/0UahE/DDxlvRwYL74lihA=07.01.2026 3:38:4207.01.2026 3:38:40</TimeStamp>
+      <ID>
+        <String>Riznyk_Maria_SSAS</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2026-01-08T02:22:24.88Z</LastDeployed>
+</DeploymentSnapshot>

@@ -1,0 +1,254 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="6791e029-3f76-445f-9147-56955e12da50" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Cable TV DWH</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Fact Financials</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="510896c2-06dd-4b02-9833-af233500f142">
+          <ID>Fact Financials</ID>
+          <Name>Fact Financials</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="1638bcdc-7927-41e7-b677-b288acbf4384">
+            <DataSourceViewID>Cable TV DWH</DataSourceViewID>
+            <TableID>dbo_FactFinancials</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fact Movie Operations</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="4aab3f9d-23da-4426-8204-65211cd4c8a0">
+          <ID>Fact Movie Operations</ID>
+          <Name>FactMovie_2021_2022</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="QueryBinding" dwd:design-time-name="f14c9dfc-17bf-4e38-aad8-9a96b9d1244b">
+            <DataSourceID>Cable TV DWH</DataSourceID>
+            <QueryDefinition>SELECT [dbo].[FactMovieOperations].[FactKey],
+       [dbo].[FactMovieOperations].[DateKey],
+       [dbo].[FactMovieOperations].[SubscriberKey],
+       [dbo].[FactMovieOperations].[MovieKey],
+       [dbo].[FactMovieOperations].[PricePaid],
+       [dbo].[FactMovieOperations].[OrderCount]
+FROM [dbo].[FactMovieOperations]
+WHERE DateKey &lt; 20230101</QueryDefinition>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <EstimatedRows>1000000</EstimatedRows>
+          <AggregationDesignID>AggregationDesign</AggregationDesignID>
+        </Partition>
+        <Partition dwd:design-time-name="9a0940a2-e5d9-47ac-b806-14f64b852a84">
+          <ID>FactMovie_2025_2030</ID>
+          <Name>FactMovie_2025_2030</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="QueryBinding" dwd:design-time-name="6c582070-2e8f-4df7-833e-f8c78cedea35">
+            <DataSourceID>Cable TV DWH</DataSourceID>
+            <QueryDefinition>SELECT [dbo].[FactMovieOperations].[FactKey],
+       [dbo].[FactMovieOperations].[DateKey],
+       [dbo].[FactMovieOperations].[SubscriberKey],
+       [dbo].[FactMovieOperations].[MovieKey],
+       [dbo].[FactMovieOperations].[PricePaid],
+       [dbo].[FactMovieOperations].[OrderCount]
+FROM [dbo].[FactMovieOperations]
+WHERE DateKey &gt;= 20230101</QueryDefinition>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <EstimatedRows>1000000</EstimatedRows>
+        </Partition>
+      </Partitions>
+      <AggregationDesigns>
+        <AggregationDesign>
+          <ID>AggregationDesign</ID>
+          <Name>AggregationDesign</Name>
+          <CreatedTimestamp>2026-01-07T05:19:27.736667Z</CreatedTimestamp>
+          <LastSchemaUpdate>2026-01-07T05:19:27.736667Z</LastSchemaUpdate>
+          <EstimatedRows>1000000</EstimatedRows>
+          <Dimensions>
+            <Dimension>
+              <CubeDimensionID>Dim Movie</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Movie Key</AttributeID>
+                  <EstimatedCount>4800</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Release Year</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Genre Name</AttributeID>
+                  <EstimatedCount>10</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Age Rating</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Base Price</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Dim Subscriber</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Subscriber Key</AttributeID>
+                  <EstimatedCount>100000</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>City</AttributeID>
+                  <EstimatedCount>96</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Age Group</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Current Status</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Dim Date</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Date Key</AttributeID>
+                  <EstimatedCount>4018</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Year</AttributeID>
+                  <EstimatedCount>11</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Month</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Month Name</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Quarter</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Day Of Week</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Day Name</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+          </Dimensions>
+          <Aggregations>
+            <Aggregation>
+              <ID>Aggregation 0</ID>
+              <Name>Aggregation 0</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Dim Movie</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Genre Name</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Subscriber</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Date</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Year</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 1</ID>
+              <Name>Aggregation 1</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Dim Movie</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Genre Name</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Subscriber</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>City</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Date</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 2</ID>
+              <Name>Aggregation 2</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Dim Movie</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Subscriber</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>City</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Date</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Year</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 3</ID>
+              <Name>Aggregation 3</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Dim Movie</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Subscriber</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Date</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Date Key</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+          </Aggregations>
+        </AggregationDesign>
+      </AggregationDesigns>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>
