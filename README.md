@@ -27,15 +27,6 @@ Key Constraints
 ≥ 1,000,000 movie orders
 5 years of historical data
 
-Repository Structure
-├── DataGeneration/        # Scripts for large-scale data generation
-├── Database/              # Database schema and SQL scripts
-├── Documentation/         # Coursework report (PDF)
-├── Riznyk_Maria_SSIS/     # ETL packages (SSIS)
-├── Riznyk_Maria_SSAS/     # OLAP cube and dimensions (SSAS)
-├── Riznyk_Maria_SSRS/     # Analytical reports (SSRS)
-└── README.md
-
 ETL (SSIS)
 Incremental and full data loading
 Data cleansing, type conversion, lookups, derived columns
